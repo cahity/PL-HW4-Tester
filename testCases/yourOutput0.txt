@@ -1,0 +1,17 @@
+Turn 1 has started.
+Player 01 moved from (0/0) to (1/0)
+Turn 2 has started.
+Player 01 moved from (1/0) to (2/0)
+Turn 3 has started.
+Player 01 moved from (2/0) to (3/0)
+Turn 4 has started.
+Player 01 moved from (3/0) to (3/1)
+Turn 5 has started.
+Player 01 moved from (3/1) to (3/2)
+Game ended at turn 5. Chest captured. Barbarian victory.
+__ __ __ __ __ 
+__ __ __ __ __ 
+__ __ __ FI __ 
+__ __ __ __ __ 
+__ __ __ __ __ 
+
