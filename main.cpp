@@ -60,6 +60,8 @@ int main(void) {
 			game->playTurn();
 		game->gridWithClass();
 
+		delete game;
+
 		testinp.close();
 		test.close();
 
