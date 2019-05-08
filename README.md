@@ -1,6 +1,6 @@
 # PL-HW4-Tester
 
-## Usage
+## Usage - Only on Unix
 - Move the file *main.cpp* and the folder *testCases* into your project file.
 - Include the below code into your *Game* classes public scope:
 
