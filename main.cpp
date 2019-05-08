@@ -48,15 +48,11 @@ int main(void) {
 		testinp.open("testCases/input" + std::to_string(i) + ".txt");
 		test.open("testCases/yourOutput" + std::to_string(i) + ".txt");
 
-		int maxTurns;
-
 		std::streambuf *cinBuffer = std::cin.rdbuf();
 		std::streambuf *coutBuffer = std::cout.rdbuf();
 
 		std::cin.rdbuf(testinp.rdbuf());
 		std::cout.rdbuf(test.rdbuf());
-
-		std::cin >> maxTurns;
 
 		Game* game = InputParser::parseGame();
 

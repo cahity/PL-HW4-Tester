@@ -12,7 +12,7 @@ void gridWithClass();
 ## Want to add test cases?
 - You **must** create *input**x**.txt*, *output**x**.txt* and *yourOutput**x**.txt* in testCases folder where:
   - x is the next test case number which doesn't appear in the file *testCases*.
-  - input.txt is the file includes input specifications with a line at the beginning which includes maximum turn number.
+  - input.txt is the file includes input specifications.
   - output.txt is the file includes the correct form of output where the code being run is:
   ```c++
   while (!(game->isGameEnded()))

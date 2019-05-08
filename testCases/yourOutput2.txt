@@ -13,17 +13,10 @@ Player 02 attacked Player 01 (100)
 Turn 5 has started.
 Player 01 attacked Player 02 (100)
 Player 02 attacked Player 01 (100)
-Turn 6 has started.
-Player 01 died.
-Player 02 moved from (1/2) to (2/2)
-Turn 7 has started.
-Player 02 moved from (2/2) to (2/3)
-Turn 8 has started.
-Player 02 moved from (2/3) to (2/4)
-Game ended at turn 8. Chest captured. Barbarian victory.
+Game ended at turn 5. All knights dead. Barbarian victory.
 __ __ __ __ __ 
 __ __ __ __ __ 
+__ FI fi __ __ 
 __ __ __ __ __ 
-__ __ __ __ __ 
-__ __ FI __ __ 
+__ __ Ch __ __ 
 
