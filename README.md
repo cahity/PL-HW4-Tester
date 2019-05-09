@@ -9,6 +9,7 @@ make run        #run
 make valgrind   #check memory leak
 make clean      #clean after execution
 ```
+- Note that this tester is not absolute, it can run wrongly in the cases where output order is arbitrary. Check your FAILED solutions manually.
 
 ## Want to add test cases?
 - You **must** create *input**x**.txt*, *output**x**.txt* and *yourOutput**x**.txt* in testCases folder where:
@@ -28,7 +29,7 @@ make clean      #clean after execution
   }
   ```
   - *yourOutput* is the file your output will be written to check validity. If it is not empty, then it will be overwritten.
-  - Change the variable *tC* in *main.cpp* to the number of test cases you have.
+- Change the variable *tC* in *main.cpp* to the number of test cases you have.
   
 ## Want to share your test cases with people?
 - Don't hesitate to create a pull request.
