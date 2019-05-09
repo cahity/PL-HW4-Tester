@@ -80,4 +80,18 @@ __ __ __ __ __
 __ 02 01 __ __ 
 __ __ __ __ __ 
 __ __ Ch __ __ 
-Game ended at turn 5. All knights dead. Barbarian victory.
+Turn 6 has started.
+Player 01 has died.
+Player 02 moved from (1/2) to (2/2)
+__ __ __ __ __ 
+__ __ __ __ __ 
+__ __ FI __ __ 
+__ __ __ __ __ 
+__ __ Ch __ __ 
+--------------
+__ __ __ __ __ 
+__ __ __ __ __ 
+__ __ 02 __ __ 
+__ __ __ __ __ 
+__ __ Ch __ __ 
+Game ended at turn 6. All knights dead. Barbarian victory.

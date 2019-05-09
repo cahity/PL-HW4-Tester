@@ -12,7 +12,7 @@
 #include"Fighter.h"
 #include"Scout.h"
 
-#define LOG(x) std::cout << (x) << "\n";
+#define LOG(x) std::cout << (x) << std::endl;
 
 
 /*                 COMPARE FILES                */
@@ -185,10 +185,10 @@ int main(void) {
 			board->printBoardwithID();
 		}
 
-		delete game;
-
 		testinp.close();
 		test.close();
+
+		delete game;
 
 		std::cin.rdbuf(cinBuffer);
 		std::cout.rdbuf(coutBuffer);
