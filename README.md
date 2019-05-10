@@ -11,6 +11,12 @@ make clean      #clean after execution
 ```
 - Note that this tester is not absolute, it can run wrongly in the cases where output order is arbitrary. Check your FAILED solutions manually.
 
+## yourOutput files has repetition at the end of the file?
+- Make sure you use **std::endl** instead of **"\n"** in your project.
+- Clean the compilation using the command above.
+- Clean inside of *yourOutput**x**.txt* files.
+- Start again.
+
 ## Want to add test cases?
 - You **must** create *input**x**.txt*, *output**x**.txt* and *yourOutput**x**.txt* in testCases folder where:
   - x is the next test case number which doesn't appear in the file *testCases*.
