@@ -159,7 +159,7 @@ int main(void) {
 	LOG("-------------testCases------------");
 
 	/*           HOW MANY TEST CASES?           */
-	int tC = 10;
+	int tC = 9;
 
 	/*              CREATE OUTPUTS              */
 	for (int i = 0; i < tC; i++) {
@@ -204,5 +204,37 @@ int main(void) {
 			LOG("FAILED.");
 		}
 	}
+
+	LOG("--------------showOff-------------");
+
+		testinp.open("testCases/input9.txt");
+		test.open("testCases/yourOutput9.txt");
+
+		std::streambuf *cinBuffer = std::cin.rdbuf();
+		coutBuffer = std::cout.rdbuf();
+
+		std::cin.rdbuf(testinp.rdbuf());
+		std::cout.rdbuf(test.rdbuf());
+
+		Game *game = InputParser::parseGame();
+		while (!game->isGameEnded()) {
+			game->playTurn();
+			std::cout << "--------------" << std::endl;
+		}
+
+		delete game;
+
+		testinp.close();
+		test.close();
+
+		std::cin.rdbuf(cinBuffer);
+		std::cout.rdbuf(coutBuffer);
+
+		if (compare_files("testCases/yourOutput9.txt", "testCases/output9.txt")) {
+			LOG("PASSED.");
+		}
+		else {
+			LOG("FAILED.");
+		}
 
  }
