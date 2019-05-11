@@ -159,7 +159,7 @@ int main(void) {
 	LOG("-------------testCases------------");
 
 	/*           HOW MANY TEST CASES?           */
-	int tC = 6;
+	int tC = 10;
 
 	/*              CREATE OUTPUTS              */
 	for (int i = 0; i < tC; i++) {
