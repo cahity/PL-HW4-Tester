@@ -1,0 +1,48 @@
+Ch __ __
+__ __ __
+__ FI fi
+------------
+Ch __ __
+__ __ __
+__ 01 02
+Turn 1 has started.
+Player 01 attacked Player 02 (100)
+Player 02 attacked Player 01 (100)
+Ch __ __
+__ __ __
+__ FI fi
+------------
+Ch __ __
+__ __ __
+__ 01 02
+Turn 2 has started.
+Player 01 attacked Player 02 (100)
+Player 02 attacked Player 01 (100)
+Ch __ __
+__ __ __
+__ FI fi
+------------
+Ch __ __
+__ __ __
+__ 01 02
+Turn 3 has started.
+Player 01 attacked Player 02 (100)
+Player 02 attacked Player 01 (100)
+Ch __ __
+__ __ __
+__ FI fi
+------------
+Ch __ __
+__ __ __
+__ 01 02
+Turn 4 has started.
+Player 01 attacked Player 02 (100)
+Player 02 has died.
+Ch __ __
+__ __ __
+__ FI __
+------------
+Ch __ __
+__ __ __
+__ 01 __
+Game ended at turn 4. Maximum turn number reached. Knight victory.
