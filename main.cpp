@@ -26,7 +26,7 @@ bool compare_files(const std::string& filename1, const std::string& filename2)
 		return false;
 	}
 
-	file1.seekg(0);	
+	file1.seekg(0);
 	file2.seekg(0);
 
 	std::istreambuf_iterator<char> begin1(file1);
@@ -42,7 +42,7 @@ int main(void) {
 	std::fstream test;
 
 	/*               TEST PLAYER                */
-	test.open("testCases/yourPlayer.txt");
+	test.open("testCases/yourPlayer.txt",std::ofstream::out | std::ofstream::trunc);
 	std::streambuf *coutBuffer = std::cout.rdbuf();
 	std::cout.rdbuf(test.rdbuf());
 
@@ -109,7 +109,7 @@ int main(void) {
 	}
 
 	/*                TEST BOARD                */
-	test.open("testCases/yourBoard.txt");
+	test.open("testCases/yourBoard.txt", std::ofstream::out | std::ofstream::trunc);
 	coutBuffer = std::cout.rdbuf();
 	std::cout.rdbuf(test.rdbuf());
 
@@ -164,7 +164,7 @@ int main(void) {
 	/*              CREATE OUTPUTS              */
 	for (int i = 0; i < tC; i++) {
 		testinp.open("testCases/input" + std::to_string(i) + ".txt");
-		test.open("testCases/yourOutput" + std::to_string(i) + ".txt");
+		test.open("testCases/yourOutput" + std::to_string(i) + ".txt",std::ofstream::out | std::ofstream::trunc);
 
 		std::streambuf *cinBuffer = std::cin.rdbuf();
 		std::streambuf *coutBuffer = std::cout.rdbuf();
@@ -208,7 +208,7 @@ int main(void) {
 	LOG("--------------showOff-------------");
 
 		testinp.open("testCases/input9.txt");
-		test.open("testCases/yourOutput9.txt");
+		test.open("testCases/yourOutput9.txt",std::ofstream::out | std::ofstream::trunc);
 
 		std::streambuf *cinBuffer = std::cin.rdbuf();
 		coutBuffer = std::cout.rdbuf();
